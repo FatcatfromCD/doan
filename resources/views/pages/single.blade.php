@@ -32,7 +32,6 @@
           </div>
         </div>
         <div class="share_post"> <a class="facebook" href=""><i class="fa fa-facebook"></i>Facebook</a> </div>
-        {{-- <a class="twitter" href="#"><i class="fa fa-twitter"></i>Twitter</a> <a class="googleplus" href="#"><i class="fa fa-google-plus"></i>Google+</a> --}}
         <div class="similar_post">
           <h2>{{ trans('message.mostviewest') }}</h2>
           <ul class="small_catg similar_nav wow fadeInDown animated">
