@@ -11,7 +11,8 @@
             </ol>
             <h2 class="post_titile">{{$post->title}}</h2>
             <div class="single_page_content">
-            <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a> <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span> <a href="#"><i class="fa fa-tags"></i>{{$post->categories->name}}   </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a> </div>
+            <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a> <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span> <a href="{{ route('category', ['id' => $post->categories->id, 'theloai' => $post->categories->name]) }}"><i class="fa fa-tags"></i>
+              {{$post->categories->name}} </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a> </div>
               	{!!$post->content!!}
                 <div class="well">
                   <div id="fb-root"></div>
@@ -50,7 +51,7 @@
             <h2>{{ trans('message.latest') }}</h2>
             <ul class="small_catg popular_catg wow fadeInDown">
               @foreach($singlerightlatest as $srl)
-              <li>              
+              <li>
                 <div class="media wow fadeInDown"> <a href="{{ route('single', ['id' => $srl->id]) }}" class="media-left"> <img alt="" src="{{asset("{$srl->media->path}/{$srl->media->image}")}}"> </a>
                   <div class="media-body">
                     <h4 class="media-heading"><a href="{{ route('single', ['id' => $srl->id]) }}">{{ $srl->title }}</a></h4>
@@ -65,7 +66,7 @@
             <h2>{{ trans('message.mostviewest') }}</h2>
             <ul class="small_catg popular_catg wow fadeInDown">
               @foreach($singlerightmostviewest as $srmv)
-              <li>              
+              <li>
                 <div class="media wow fadeInDown"> <a href="{{ route('single', ['id' => $srmv->id]) }}" class="media-left"> <img alt="" src="{{asset("{$srmv->media->path}/{$srmv->media->image}")}}"> </a>
                   <div class="media-body">
                     <h4 class="media-heading"><a href="{{ route('single', ['id' => $srmv->id]) }}">{{ $srmv->title }}</a></h4>

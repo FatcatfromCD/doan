@@ -19,4 +19,5 @@ class categories extends Model
     {
     	return $this->hasOne('App\categories', 'id', 'parent_id');
     }
+    //eeeeeeee
 }
