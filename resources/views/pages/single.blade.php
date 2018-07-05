@@ -26,6 +26,19 @@
                     // js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0';
                     fjs.parentNode.insertBefore(js, fjs);
                   }(document, 'script', 'facebook-jssdk'));</script>
+
+                  <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=127598251257448';
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-share-button"
+                    {{-- data-href="http://localhost:8080/news/public/single/{{ $post->id }}" --}}
+                    data-href="http://vlxx.tv"
+                    data-layout="button_count">
+                  </div>
                 </div>
 
             </div>
@@ -86,3 +99,26 @@
     </div>
   </section>
 @endsection
+{{-- @section('script')
+<script>
+    function fbLoginStatus(response) {
+     if( response.status === 'connected' ) {
+        alert('login')
+     } else {
+      alert('not logged login')
+     }
+    }
+    window.fbAsyncInit = function() {
+      FB.init({appId: 'your app id', status: true, cookie: true, xfbml: true});
+      FB.getLoginStatus(fbLoginStatus);
+      FB.Event.subscribe('auth.statusChange', fbLoginStatus);
+    };
+
+    (function() {
+      var e = document.createElement('script'); e.async = true;
+      e.src = document.location.protocol +
+        '//connect.facebook.net/en_US/all.js';
+      document.getElementById('fb-root').appendChild(e);
+    }());
+</script>
+@endsection --}}
