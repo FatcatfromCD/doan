@@ -7,9 +7,9 @@ return [
     'search' => 'Tìm kiếm',
     'image' => 'Hình ảnh',
     'tag' => 'Chủ đề',
-    'about' => 'Giới thiệu',
+    'about' => 'Thông tin liên hệ',
     'latest' => 'Tin tức mới nhất',
-    'mostviewest' => 'Tin tức nổi bât nhất',
+    'mostviewest' => 'Tin tức nổi bật nhất',
 
     //Trang detail
     'latest2' => 'Tin mới nhất',

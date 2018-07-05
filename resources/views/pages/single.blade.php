@@ -1,6 +1,6 @@
 @extends('layout.index')
-
 @section('content')
+<meta property="fb:admins" content="{100002945160900}"/>
 <section id="mainContent">
     <div class="content_bottom">
       <div class="col-lg-8 col-md-8">
@@ -13,7 +13,8 @@
             <div class="single_page_content">
             <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a> <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span> <a href="{{ route('category', ['id' => $post->categories->id, 'theloai' => $post->categories->name]) }}"><i class="fa fa-tags"></i>
               {{$post->categories->name}} </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a> </div>
-              	{!!$post->content!!}
+                {!!$post->content!!}
+
                 <div class="well">
                   <div id="fb-root"></div>
                   <div class="fb-comments" style="padding-left: 80px" data-href="http://localhost:8080/news/public/single/{{ $post->id }}" data-numposts="5"></div>
@@ -21,14 +22,17 @@
                     var js, fjs = d.getElementsByTagName(s)[0];
                     if (d.getElementById(id)) return;
                     js = d.createElement(s); js.id = id;
-                    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0';
+                    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=1840924022884218&autoLogAppEvents=1';
+                    // js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0';
                     fjs.parentNode.insertBefore(js, fjs);
                   }(document, 'script', 'facebook-jssdk'));</script>
                 </div>
+
             </div>
           </div>
         </div>
-        <div class="share_post"> <a class="facebook" href="#"><i class="fa fa-facebook"></i>Facebook</a> <a class="twitter" href="#"><i class="fa fa-twitter"></i>Twitter</a> <a class="googleplus" href="#"><i class="fa fa-google-plus"></i>Google+</a> </div>
+        <div class="share_post"> <a class="facebook" href=""><i class="fa fa-facebook"></i>Facebook</a> </div>
+        {{-- <a class="twitter" href="#"><i class="fa fa-twitter"></i>Twitter</a> <a class="googleplus" href="#"><i class="fa fa-google-plus"></i>Google+</a> --}}
         <div class="similar_post">
           <h2>{{ trans('message.mostviewest') }}</h2>
           <ul class="small_catg similar_nav wow fadeInDown animated">

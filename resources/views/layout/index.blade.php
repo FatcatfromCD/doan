@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/theme.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+<meta property="fb:app_id" content="1840924022884218"/>
 @yield('css')
 <body>
 <div id="preloader">
@@ -23,10 +24,10 @@
   @yield('content')
 </div>
 	@include('layout.footer')
-<script src="{{asset('assets/js/jquery.min.js')}}"></script> 
-<script src="{{asset('assets/js/bootstrap.min.js')}}"></script> 
-<script src="{{asset('assets/js/wow.min.js')}}"></script> 
-<script src="{{asset('assets/js/slick.min.js')}}"></script> 
+<script src="{{asset('assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/js/wow.min.js')}}"></script>
+<script src="{{asset('assets/js/slick.min.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
 
 @yield('script')
