@@ -1,0 +1,11 @@
+.paginate ul.pagination {
+	float:right;
+}
+
+table thead tr th {
+	text-align: center;
+}
+.search-all{
+	padding-top: 35px;
+}
+
