@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 05, 2018 lúc 07:44 AM
+-- Thời gian đã tạo: Th7 06, 2018 lúc 01:41 PM
 -- Phiên bản máy phục vụ: 10.1.28-MariaDB
 -- Phiên bản PHP: 7.0.25
 
@@ -442,7 +442,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `gender`, `birthday`, `phone`, `role`, `created_at`, `updated_at`, `remember_token`) VALUES
-(15, 'Nguyễn Hải Duy', 'haiduy1996@gmail.com', '$2y$10$4g7UWfdDntDZS.NbkVMG5uMfKmP1YX8vMD5heJq0RrxMSpQyr9u4y', 1, '1996-12-05', '1234589', 1, '2018-06-16 13:02:11', '2018-06-16 13:02:11', 'DHmmPuy8iLBw1xszbLfSbObxHgxOmZzPjvbj9gnTuG2tlT3ozLtoveM8crud'),
+(15, 'Nguyễn Hải Duy', 'haiduy1996@gmail.com', '$2y$10$4g7UWfdDntDZS.NbkVMG5uMfKmP1YX8vMD5heJq0RrxMSpQyr9u4y', 1, '1996-12-05', '1234589', 1, '2018-06-16 13:02:11', '2018-06-16 13:02:11', '86R2C3uZSD5cCcQK2tyxqMJcNb4ieksMbmcERbhb3jsfzWTfQjqKxEPsZQ67'),
 (17, 'nguyen tuan hung', 'tuanhungnguyen@gmail.com', '$2y$10$S8dWHFfVP3tsdc7eVhgx9ujHKimzuuJMRk6flHCwMTcILoUJ9wTE.', 1, '1996-02-04', '0122456551', 0, '2018-06-16 04:16:44', '2018-05-21 15:24:19', '3e3qiIbVZecVtrEmHoBPjSOV4ogM2wFKX7cQMqk90JdPiXu9fIwKnS83lCRq'),
 (22, 'nguyễn thu hằng', 'hangmip96@gmail.com', '$2y$10$FeY5xFUSG.7cWgMigHc2zO4RavQvd8YblkedROJpiXsAwFDv3wnCG', 1, '1995-01-04', '12345122', 0, '2018-06-14 02:09:41', '2018-06-12 12:03:12', 'gbPsO3wQZuB3BKC5uJ3sICr7v5Bu0w76tP4eNnEsztCPwicWBXaFmaRGKRv6'),
 (23, 'trần hồng ánh', 'honganhtran@gmail.com', '$2y$10$b88gWqfMlC7sKl9fyJ8psu8qLBfAcrp2lVwN/aYXXvb0nJRDi3F56', 0, '1995-01-04', '412124421', 0, '2018-06-12 13:26:22', '2018-05-31 16:50:31', 'UD6eOpgWHPWR0GMpkQRXSgZjhMHcLN9QP51bJ0a5ev7pTPMwWJlwt8Ng97oF'),
@@ -528,7 +528,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID danh mục', AUTO_INCREMENT=36;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID danh mục', AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT cho bảng `comments`
@@ -546,7 +546,7 @@ ALTER TABLE `contacts`
 -- AUTO_INCREMENT cho bảng `media`
 --
 ALTER TABLE `media`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID hình ảnh, video', AUTO_INCREMENT=126;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID hình ảnh, video', AUTO_INCREMENT=128;
 
 --
 -- AUTO_INCREMENT cho bảng `migrations`
@@ -570,13 +570,13 @@ ALTER TABLE `post_tag`
 -- AUTO_INCREMENT cho bảng `tag`
 --
 ALTER TABLE `tag`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID thẻ tag', AUTO_INCREMENT=88;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID thẻ tag', AUTO_INCREMENT=89;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID người dùng', AUTO_INCREMENT=29;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID người dùng', AUTO_INCREMENT=32;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

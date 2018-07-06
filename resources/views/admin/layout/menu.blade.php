@@ -20,7 +20,7 @@
                                 </li>
                             </ul>
                         </li>
-                        
+
                          <li>
                             <a href="#"><i class="glyphicon glyphicon-list"></i> Danh mục<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -29,7 +29,7 @@
                                 </li>
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="#"><i class="glyphicon glyphicon-picture"></i> Media<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -43,7 +43,7 @@
 
                         {{-- Quản lý giao diện admin --}}
                         @if (Auth::user()->role == 1)
-                        
+
                         <li>
                             <a href="{{ route('trangchu') }}"><i class="glyphicon glyphicon-home"></i> Trang tin tức</a>
                         </li>
@@ -82,7 +82,7 @@
                                 </li>
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="#"><i class="glyphicon glyphicon-picture"></i> Media<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -92,7 +92,7 @@
                                 <li>
                                     <a href="admin/media/them">Thêm media</a>
                                 </li>
-                            </ul>                           
+                            </ul>
                         </li>
 
                          <li>
@@ -123,10 +123,10 @@
                                     <a href="admin/tag/them">Thêm thẻ tag </a>
                                 </li>
                             </ul>
-                            
+
                         </li>
 
-                         <li>
+                         {{-- <li>
                             <a href="#"><i class="glyphicon glyphicon-tags"></i> Quản lý bản ghi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -136,12 +136,12 @@
                                     <a href="admin/post_tag/them">Thêm bản ghi </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                         <li>
                             <a href="{{route('dashboard')}}"><i class="fa fa-bar-chart-o fa-fw"></i> Thống kê</a>
                         </li>
-                        
+
                         @endif
                     </ul>
                 </div>
