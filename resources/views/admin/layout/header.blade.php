@@ -25,7 +25,7 @@
                         <p>Bạn có muốn đăng xuất không?</p>
                       </div>
                       <div class="modal-footer">
-                        <a id='modal_delete' href="admin/logout" class="btn btn-danger" >Đăng xuất</a>
+                        <a href="admin/logout" class="btn btn-danger" >Đăng xuất</a>
                         <button  type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
                       </div>
                     </div>
@@ -39,7 +39,7 @@
                         <i class="glyphicon glyphicon-user"></i>  <i class="fa fa-caret-down"></i>
                         @if(Auth::user())
                             {{ Auth::user()->name }}
-                        @endif    
+                        @endif
                      </a>
 
                     <ul class="dropdown-menu dropdown-user">
@@ -49,7 +49,7 @@
                         <li>
                             <a style='cursor: pointer;' data-toggle="modal" data-target="#logout"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
                         </li>
-                        
+
                     </ul>
                     <!-- /.dropdown-user -->
                 </li>
