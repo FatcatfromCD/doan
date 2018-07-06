@@ -56,7 +56,7 @@
                                 <th>Lượt xem</th>
                                 @if(Auth::user()->role != 0)
                                 <th>Trạng thái</th>
-                                @endif         
+                                @endif
                                 <th>Xóa</th>
                                 <th>Sửa</th>
                             </tr>
@@ -82,9 +82,9 @@
                                     @else
                                         <td id='st{{$pt->id}}'><button id='st{{$pt->id}}' onclick='ChangeStatus(1, {{$pt->id}}, this)' class='btn btn-default' style='color:white;background: red'><i class="fa fa-close"></i></button></td>
                                     @endif
-                                @endif    
+                                @endif
                                 <td class="center">
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-trash" onclick="pass_id({{$pt->id}})"></i></button>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal" onclick="pass_id({{$pt->id}})"><i class="glyphicon glyphicon-trash" ></i></button>
                                     <!--<a href="admin/posts/xoa/{{$pt->id}}"> Xóa</a> -->
                                 </td>
                                 <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/posts/sua/{{$pt->id}}">Sửa</a></td>
@@ -114,7 +114,7 @@
             console.log(data);
             $.post('./admin/posts/suaajax', data).done(function(dataa)
                 {
-                    
+
                     if(dataa.status == 0)
                     {
                         $(`#st${id}`).html(`<td id='st${id}'><button  onclick='ChangeStatus(0, ${id}, this)' class='btn btn-default' style='color:white;background: green'><i class="fa fa-check"></i></button></td>`)
@@ -127,6 +127,6 @@
     function pass_id(id) {
         var del = document.getElementById('modal_delete');
         del.setAttribute('href', `admin/posts/xoa/${id}`);
-    }    
+    }
 </script>
 @endsection
