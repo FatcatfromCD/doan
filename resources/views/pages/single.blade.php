@@ -12,7 +12,22 @@
             <h2 class="post_titile">{{$post->title}}</h2>
             <div class="single_page_content">
             <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a> <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span> <a href="{{ route('category', ['id' => $post->categories->id, 'theloai' => $post->categories->name]) }}"><i class="fa fa-tags"></i>
-              {{$post->categories->name}} </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a> </div>
+              {{$post->categories->name}} </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a>
+              <div class="stars">
+                <form action="">
+                  <input class="star star-5" id="star-5" type="radio" name="star" value='5' {{$rate == 5 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
+                  <label class="star star-5" for="star-5"></label>
+                  <input class="star star-4" id="star-4" type="radio" name="star" value='4' {{$rate == 4 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
+                  <label class="star star-4" for="star-4"></label>
+                  <input class="star star-3" id="star-3" type="radio" name="star" value='3' {{$rate == 3 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
+                  <label class="star star-3" for="star-3"></label>
+                  <input class="star star-2" id="star-2" type="radio" name="star" value='2' {{$rate == 2 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
+                  <label class="star star-2" for="star-2"></label>
+                  <input class="star star-1" id="star-1" type="radio" name="star" value='1' {{$rate == 1 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
+                  <label class="star star-1" for="star-1"></label>
+                </form>
+              </div>
+            </div>
                 {!!$post->content!!}
 
                 {{-- fb comment --}}
@@ -88,26 +103,25 @@
     </div>
   </section>
 @endsection
-{{-- @section('script')
-<script>
-    function fbLoginStatus(response) {
-     if( response.status === 'connected' ) {
-        alert('login')
-     } else {
-      alert('not logged login')
-     }
-    }
-    window.fbAsyncInit = function() {
-      FB.init({appId: 'your app id', status: true, cookie: true, xfbml: true});
-      FB.getLoginStatus(fbLoginStatus);
-      FB.Event.subscribe('auth.statusChange', fbLoginStatus);
-    };
+@section('css')
+<link href="{{asset("admin_asset/css/star.css")}}" rel="stylesheet">
+@endsection
 
-    (function() {
-      var e = document.createElement('script'); e.async = true;
-      e.src = document.location.protocol +
-        '//connect.facebook.net/en_US/all.js';
-      document.getElementById('fb-root').appendChild(e);
-    }());
-</script>
-@endsection --}}
+@section('script')
+  <script>
+    var number = Math.floor((Math.random() * 9999) + 1000);
+    function validate(input, post_id)
+    {
+      var a = prompt('Nhập mã xác nhận: ' + number);
+      if(a == number)
+      {
+        window.location.href = `/news/public/rate/${post_id}/${input.value}`
+      }
+      else {
+        alert('Mã xác nhận không chính xác');
+        window.location.reload();
+      }
+
+    }
+  </script>
+@endsection

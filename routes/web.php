@@ -74,7 +74,7 @@ Route::group(['middleware' => 'auth', 'prefix'=> 'admin'],function(){
         Route::get('sua/{id}','postsController@getSua');
 
         Route::post('sua/{id}','postsController@postSua');
-        
+
         Route::post('suaajax','postsController@ajaxsua');
 
         Route::get('them','postsController@getThem');
@@ -144,4 +144,5 @@ Route::group(['middleware' => 'localization'],function(){
     Route::get('timkiem','indexController@timkiem')->name('timkiem');
     Route::get('admin/dangnhap','usersController@getDangnhapAdmin')->name('login');
     Route::get('/localization/{lang}', 'LanguageLocallizationController@index')->name('localization');
+    Route::get('rate/{id}/{number}', 'singleController@rate')->name('rate');
 });
