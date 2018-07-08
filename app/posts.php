@@ -21,11 +21,14 @@ class posts extends Model
     	return $this->belongsTo('App\media','media_id','id');
     }
 
-     public function post_tag(){
+    public function post_tag(){
     	return $this->hasMany('App\post_tag','post_id','id');
     }
     public function users(){
         return $this->belongsTo('App\User','user_id','id');
+    }
+    public function post_rate(){
+    	return $this->hasMany('App\post_rate','post_id','id');
     }
 
 }

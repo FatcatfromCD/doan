@@ -103,6 +103,7 @@
     </div>
   </section>
 @endsection
+
 @section('css')
 <link href="{{asset("admin_asset/css/star.css")}}" rel="stylesheet">
 @endsection
@@ -121,7 +122,6 @@
         alert('Mã xác nhận không chính xác');
         window.location.reload();
       }
-
     }
   </script>
 @endsection

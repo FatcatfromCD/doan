@@ -14,7 +14,6 @@
                             @endforeach
                         </div>
                         @endif
-
                         {{-- In thông báo thành công --}}
                         @if(session('thongbao'))
                         <div class="alert alert-success">
