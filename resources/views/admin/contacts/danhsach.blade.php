@@ -69,6 +69,9 @@
                             </tr>
                             @endforeach
                     </table>
+                    <div class='paginate'>
+                        {{ $contacts->links() }}
+                    </div>
                 </div>
                 <!-- /.row -->
             </div>

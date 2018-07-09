@@ -37,6 +37,9 @@
                             </tr>
                             @endforeach
                     </table>
+                    <div class='paginate'>
+                        {{ $post_tag->links() }}
+                    </div>
                 </div>
                 <!-- /.row -->
             </div>

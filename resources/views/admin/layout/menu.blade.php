@@ -95,20 +95,29 @@
                             </ul>
                         </li>
 
-                         <li>
-                            <a href="#"><i class="glyphicon glyphicon-comment"></i> Quản lý bình luận<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="admin/comments/danhsach">Danh sách bình luận</a>
-                                </li>
-                            </ul>
-                        </li>
-
                         <li>
                             <a href="#"><i class="glyphicon glyphicon-envelope"></i> Quản lý liên hệ<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="admin/contacts/danhsach">Danh sách liên hệ</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-star-empty"></i> Quản lý đánh giá<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="admin/rate/danhsach">Danh sách đánh giá</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li>
+                            <a href="#"><i class="glyphicon glyphicon-comment"></i> Quản lý bình luận<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="admin/comments/danhsach">Danh sách bình luận</a>
                                 </li>
                             </ul>
                         </li>

@@ -113,15 +113,7 @@
     var number = Math.floor((Math.random() * 9999) + 1000);
     function validate(input, post_id)
     {
-      var a = prompt('Nhập mã xác nhận: ' + number);
-      if(a == number)
-      {
-        window.location.href = `/news/public/rate/${post_id}/${input.value}`
-      }
-      else {
-        alert('Mã xác nhận không chính xác');
-        window.location.reload();
-      }
+      window.location.href = `/news/public/rate/${post_id}/${input.value}`
     }
   </script>
 @endsection

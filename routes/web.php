@@ -123,6 +123,11 @@ Route::group(['middleware' => 'auth', 'prefix'=> 'admin'],function(){
         Route::get('xoa/{id}','contactsController@getXoa');
     });
 
+    Route::group(['prefix'=>'rate'],function(){
+        Route::get('danhsach','rateController@getDanhSach');
+        Route::get('xoa/{id}','rateController@getXoa');
+    });
+
     Route::group(['prefix'=>'dashboard'],function(){
         Route::get('dashboard','dashboardController@getDanhSach')->name('dashboard');
     });
