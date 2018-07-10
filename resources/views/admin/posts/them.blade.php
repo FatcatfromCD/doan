@@ -49,7 +49,7 @@
                                     @endforeach
                                 </select>
                             </div>
-                            
+
                            <div class="form-group">
                                 <label>Danh mục</label>
                                 <select class="form-control" name='categories_id'>
@@ -59,11 +59,19 @@
                                     @endforeach
                                 </select>
                             </div>
+                           <div class="form-group">
+                                <label>Tags</label>
+                                <select class="form-control" name="tags[]" multiple tabindex="1" size="5">
+                                    @foreach($tags as $tag )
+                                        <option value="{{$tag->id}}">{{$tag->name}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
                             <div class="form-group">
                                 <label>Nội dung</label>
                                 <textarea id="demo"  class="form-control ckeditor" rows="3" name="content" placeholder="Nhập nội dung"></textarea>
                             </div>
-                            
+
                             <button type="submit" class="btn btn-default">Thêm mới</button>
                             <button type="reset" class="btn btn-default">Làm mới</button>
                         <form>

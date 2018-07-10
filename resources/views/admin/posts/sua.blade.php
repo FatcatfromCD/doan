@@ -27,7 +27,7 @@
                         </div>
                         @endif
                         <form action="admin/posts/sua/{{$posts->id}}" method="POST">
-                            
+
                             {{-- truyền dữ liệu lên máy chủ --}}
                             <input type="hidden" name="_token" value="{{csrf_token()}}">
                             <div class="form-group">
@@ -46,13 +46,13 @@
                                         <option value="{{ $me->id }}"
                                         	@if ($me->id == $posts->media_id)
                                         		selected
-                                        	@endif 
+                                        	@endif
                                         	>{{ $me->name }}
                                         </option>
                                     @endforeach
                                 </select>
                             </div>
-                            
+
                              <div class="form-group">
                                 <label>Danh mục</label>
                                 <select class="form-control" name='categories_id'>
@@ -61,8 +61,26 @@
                                         <option value="{{ $tl->id }}"
                                         	@if ($tl->id == $posts->categories_id)
                                         		selected
-                                        	@endif 
+                                        	@endif
                                         	>{{ $tl->name }}
+                                        </option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                             <div class="form-group">
+                                <label>Tag</label>
+                                <select class="form-control" name="tags[]" multiple tabindex="1" size="5">
+                                    @foreach($tags as $tag)
+                                        <option value="{{ $tag->id }}"
+                                            @if ($posts->post_tag)
+                                                @foreach($posts->post_tag as $pt)
+                                                    @if($pt->tag_id == $tag->id)
+                                                        selected
+                                                    @endif
+                                                @endforeach
+                                        	@endif
+                                        	>{{ $tag->name }}
                                         </option>
                                     @endforeach
                                 </select>
