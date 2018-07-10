@@ -11,8 +11,18 @@
             </ol>
             <h2 class="post_titile">{{$post->title}}</h2>
             <div class="single_page_content">
-            <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a> <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span> <a href="{{ route('category', ['id' => $post->categories->id, 'theloai' => $post->categories->name]) }}"><i class="fa fa-tags"></i>
-              {{$post->categories->name}} </a> <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a>
+            <div class="post_commentbox">
+              <a href="#"><i class="fa fa-user"></i>{{$post->users->name}}</a>
+              <span><i class="fa fa-calendar"></i>{{$post->created_at}}</span>
+              <a href="#"><i class="fa fa-tags"></i>
+
+                @if($post->post_tag)
+                    @foreach($post->post_tag as $pt)
+                      #{{$pt->tag->name}},
+                    @endforeach
+                @endif
+              </a>
+              <a href=""><i class="fa fa-eye"></i>  {{$post->views}}</a>
               <div class="stars">
                 <form action="">
                   <input class="star star-5" id="star-5" type="radio" name="star" value='5' {{$rate == 5 ? "checked" : ""}} onclick='validate(this, {{$post->id}})'/>
