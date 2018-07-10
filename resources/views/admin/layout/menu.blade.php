@@ -113,14 +113,14 @@
                             </ul>
                         </li>
 
-                         <li>
+                        {{-- <li>
                             <a href="#"><i class="glyphicon glyphicon-comment"></i> Quản lý bình luận<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="admin/comments/danhsach">Danh sách bình luận</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                          <li>
                             <a href="#"><i class="glyphicon glyphicon-tag"></i> Quản lý thẻ tag<span class="fa arrow"></span></a>

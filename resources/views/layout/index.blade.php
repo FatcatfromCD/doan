@@ -12,8 +12,9 @@
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/theme.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
 <link rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.png')}}" />
-<meta property="fb:app_id" content="1840924022884218"/>
+
 @yield('css')
+
 <body>
 <div id="preloader">
   <div id="status">&nbsp;</div>
