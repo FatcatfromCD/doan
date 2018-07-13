@@ -37,7 +37,7 @@ class indexController extends Controller
             ->from('categories')
             ->where('name', 'LIKE', "Kinh%");
         })->orderBy('id', 'DESC')->take(4)->get();
-       
+
         $gamePosts = posts::where("status", 1)->with(['categories', 'media'])->whereIn('categories_id', function($query) {
             $query->select('id')
             ->from('categories')
@@ -82,7 +82,7 @@ class indexController extends Controller
     function timkiem(Request $request)
     {
         $tukhoa = $request->tukhoa;
-        $posts = posts::where('title','like',"%$tukhoa%")->orWhere('description','like',"%$tukhoa%")->orWhere('content','like',"%$tukhoa%")->where("status", 1)->orderBy('id', 'DESC')->take(30)->paginate(1);
+        $posts = posts::where('title','like',"%$tukhoa%")->orWhere('description','like',"%$tukhoa%")->orWhere('content','like',"%$tukhoa%")->where("status", 1)->orderBy('id', 'DESC')->take(30)->paginate(10);
         $searchrightlatest = posts::where("status", 1)->orderBy('id', 'DESC')->take(4)->get();
         $searchrightmostviewest = posts::where("status", 1)->orderBy('views', 'DESC')->take(4)->get();
         $this->var_share['searchrightlatest'] = $searchrightlatest;

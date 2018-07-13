@@ -135,7 +135,7 @@
 
                         </li>
 
-                         {{-- <li>
+                        {{-- <li>
                             <a href="#"><i class="glyphicon glyphicon-tags"></i> Quản lý bản ghi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>

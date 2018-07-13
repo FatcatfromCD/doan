@@ -74,7 +74,7 @@ class postsController extends Controller
             }
         }
 
-        return redirect('admin/posts/them')->with('thongbao','Thêm thành công');
+        return redirect('admin/posts/danhsach')->with('thongbao','Thêm thành công');
     }
    public function getSua($id)
     {
@@ -117,7 +117,7 @@ class postsController extends Controller
                 $post_tag->save();
             }
         }
-        return redirect('admin/posts/sua/'.$posts->id)->with('thongbao','Sửa thành công');
+        return redirect('admin/posts/danhsach/')->with('thongbao','Sửa thành công');
     }
     public function getXoa($id)
     {
