@@ -113,14 +113,14 @@
                             </ul>
                         </li>
 
-                        {{-- <li>
+                        <li>
                             <a href="#"><i class="glyphicon glyphicon-comment"></i> Quản lý bình luận<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="admin/comments/danhsach">Danh sách bình luận</a>
                                 </li>
                             </ul>
-                        </li> --}}
+                        </li>
 
                          <li>
                             <a href="#"><i class="glyphicon glyphicon-tag"></i> Quản lý thẻ tag<span class="fa arrow"></span></a>
@@ -135,7 +135,7 @@
 
                         </li>
 
-                        {{-- <li>
+                        <li>
                             <a href="#"><i class="glyphicon glyphicon-tags"></i> Quản lý bản ghi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -145,7 +145,7 @@
                                     <a href="admin/post_tag/them">Thêm bản ghi </a>
                                 </li>
                             </ul>
-                        </li> --}}
+                        </li>
 
                         <li>
                             <a href="{{route('dashboard')}}"><i class="fa fa-bar-chart-o fa-fw"></i> Thống kê</a>

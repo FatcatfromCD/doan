@@ -23,13 +23,13 @@ class indexController extends Controller
         $moviePosts = posts::where("status", 1)->with(['categories', 'media'])->whereIn('categories_id', function($query) {
             $query->select('id')
             ->from('categories')
-            ->where('name', 'LIKE', "phim%");
+            ->where('name', 'LIKE', "phim ảnh");
         })->orderBy('id', 'DESC')->take(2)->get();
 
         $musicPosts = posts::where("status", 1)->with(['categories', 'media'])->whereIn('categories_id', function($query) {
             $query->select('id')
             ->from('categories')
-            ->where('name', 'LIKE', "Âm%");
+            ->where('name', 'LIKE', "Âm nhạc");
         })->orderBy('id', 'DESC')->take(2)->get();
 
         $kinhdoanhPosts = posts::where("status", 1)->with(['categories', 'media'])->whereIn('categories_id', function($query) {

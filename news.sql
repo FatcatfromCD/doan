@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 13, 2018 lúc 04:48 AM
+-- Thời gian đã tạo: Th7 20, 2018 lúc 01:44 PM
 -- Phiên bản máy phục vụ: 10.1.28-MariaDB
 -- Phiên bản PHP: 7.0.25
 
@@ -359,7 +359,8 @@ INSERT INTO `posts` (`id`, `title`, `description`, `content`, `user_id`, `media_
 (125, 'Thư mời Galaxy Note 9 đã bí mật để lộ điều gì về siêu phẩm mới nhất dòng Note?', 'dòng note mới', '<p>Đêm ngày 20/5 tại lễ trao giải Billboard Music Award 2018, đã quy tụ dàn khách mời khủng như Taylor Swift, Luis Fonsi, Khalid,... nhưng đặc sắc hơn cả là màn trình diễn của các ngôi sao quốc tế</p>\r\n\r\n<p><img alt=\"\" src=\"https://kenh14cdn.com/2018/6/30/photo-1-15303421794391006002443.jpg\" style=\"height:543px; width:660px\" /></p>\r\n\r\n<p><strong>1. Công cụ xóa ở đỉnh cây bút đã được thiết kế trở nên ngắn hơn hơn. Chưa rõ việc tinh chỉnh kích thước của đỉnh bút có đem tới tác dụng nào hay không nhưng đây chắc chắn là một thay đổi có lợi cho người dùng.</strong></p>\r\n\r\n<p><strong>2. Galaxy Note 9 nhiều khả năng sẽ có một phiên bản màu vàng để “ăn nhập” với chiếc bút S Pen màu vàng đặc trưng.</strong></p>\r\n\r\n<p><strong><img alt=\"\" src=\"https://kenh14cdn.com/2018/6/30/photo-1-15303421812611870240295.jpg\" style=\"height:440px; width:660px\" /></strong></p>', 15, 122, 33, 0, 1, '2018-07-03 03:30:02', '2018-07-03 03:47:53'),
 (126, 'iOS 12 trên iPhone 5s: Liệu hiệu năng có cải thiện vượt bậc như lời Apple?', 'ios 12 trên iphone', '<p>Đêm ngày 20/5 tại lễ trao giải Billboard Music Award 2018, đã quy tụ dàn khách mời khủng như Taylor Swift, Luis Fonsi, Khalid,... nhưng đặc sắc hơn cả là màn trình diễn của các ngôi sao quốc tế</p>\r\n\r\n<p><img alt=\"\" src=\"https://kenh14cdn.com/2018/7/1/ios-12-beta-2-without-developer-account-740x381-15302764064831209759075-15304576991761994955743.png\" style=\"height:340px; width:660px\" /></p>\r\n\r\n<p>Khi Apple giới thiệu&nbsp;<a class=\"seo-suggest-link\" href=\"http://kenh14.vn/ios-12.html\" style=\"margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; text-decoration-line: none; box-sizing: border-box;\" target=\"_blank\" title=\"ios 12\">iOS 12</a>&nbsp;tại hội nghị dành cho nhà phát triển hồi đầu tháng này, rất ít tính năng mới được công bố. Năm nay, không có quá nhiều thay đổi về mặt giao diện của các ứng dụng, màn hình khóa vẫn y như cũ và cũng chẳng có sự lột xác về mặt thiết kế, hình ảnh mà mỗi bản nâng cấp iOS mới mang lại. Thay vào đó, Táo khuyết lại tập trung đẩy mạnh một tính năng tuyệt vời, đó chính là:<strong>&nbsp;Hiệu năng.</strong></p>\r\n\r\n<p>iOS 12 được kỳ vọng sẽ mang đến tốc độ vượt trội khi đặt lên bàn cân với các phiên bản đời trước trên không chỉ iPhone X và bộ đôi iPhone 8/8 Plus. Những \"thầy phù thủy công nghệ\" xứ Cupertino tuyên bố sẽ hỗ trợ tất cả đời máy iPhone từ 5s ra mắt hồi 2013 trở đi, và hứa hẹn rằng phần mềm mới sẽ mang lại trải nghiệm mượt mà hơn rất nhiều..</p>\r\n\r\n<p>Để thử nghiệm tính xác thực của câu nói trên, trang CNET đã khôi phục cài đặt gốc cho hai chiếc iPhone 5s, sau đó cài iOS 11.4 bản chính thức cho một chiếc, chiếc còn lại được chạy iOS 12 beta. Sau đó, họ cho chúng tham gia bài test bằng cách thực hiện các tác vụ hằng ngày và cử chỉ thông thường để xem iOS 12 có thực sự mang đến sự cải thiện về mặt hiệu năng hay không.</p>\r\n\r\n<p>Nếu có thời gian rảnh, bạn có thể xem lại toàn bộ video. Còn kết luận đơn giản như sau: iOS 12 đúng là nhanh hơn ở một số thao tác đơn giản và rất đáng kể . Trong đó hầu hết là những điều nhỏ nhặt, ví dụ như thời gian để hệ thống đưa bàn phím xuất hiện lên màn hình khi nhấn vào vùng tin nhắn của iMessages, iOS 12 nhanh hơn iOS 11.4 tận 1 giây tròn. Thời gian tải website cũng nhanh hơn, và \"triệu hồi\" Siri cũng có chút tiến bộ về mặt tốc độ.</p>', 15, 123, 33, 11, 1, '2018-07-03 03:34:40', '2018-07-10 18:07:46'),
 (127, 'Đây sẽ là trợ thủ đắc lực nhất dành cho bạn khi mua một chiếc iPhone cũ mùa World Cup này', 'trợ thủ đắc lực', '<p>Đêm ngày 20/5 tại lễ trao giải Billboard Music Award 2018, đã quy tụ dàn khách mời khủng như Taylor Swift, Luis Fonsi, Khalid,... nhưng đặc sắc hơn cả là màn trình diễn của các ngôi sao quốc tế</p>\r\n\r\n<p><img alt=\"\" src=\"https://kenh14cdn.com/2018/6/28/photo-1-15301963499861230281695.jpg\" style=\"height:426px; width:640px\" /></p>\r\n\r\n<p>Hiện tại, người dùng không cần có quá nhiều tiền mới mua được&nbsp;<a class=\"seo-suggest-link\" href=\"http://kenh14.vn/iphone.html\" style=\"margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; text-decoration-line: none; box-sizing: border-box;\" target=\"_blank\" title=\"iphone\">iPhone</a>. Với sự đa dạng hóa của thị trường, các nguồn hàng iPhone cũ, đã qua sử dụng hay iPhone khóa mạng đã phổ biến hơn rất nhiều, và cũng có giá thành rẻ hơn so với hàng chính hãng, mà lại có chất lượng không chênh lệch quá.&nbsp;</p>\r\n\r\n<p>Tuy nhiên cần lưu ý rằng việc mua iPhone cũ, iPhone khóa mạng vẫn luôn là một canh bạc, bởi người dùng có thể sẽ phải đối mặt với nhiều vấn đề hơn như nguy cơ hỏng hóc, nguy cơ mua phải hàng dựng, hàng bị thay thế linh kiện, hoặc hàng có chất lượng không đảm bảo, nhất là khi bạn không có kiến thức cụ thể về việc kiểm tra máy.</p>\r\n\r\n<p><img alt=\"\" src=\"http://genknews.genkcdn.vn/2018/6/25/2-1529889462052527454611.jpg\" style=\"height:548px; width:640px\" /></p>\r\n\r\n<p><span style=\"color:rgb(34, 34, 34); font-family:times new roman,georgia,serif; font-size:17px\">Để hạn chế điều trên, bài viết này sẽ gợi ý cho bạn một ứng dụng khá hữu ích với chức năng chính là giúp bạn thực hiện việc kiểm tra máy với 19 bước tiêu chuẩn khi chọn mua một chiếc iPhone cũ, qua đó đảm bảo bạn không mua nhầm một chiếc iPhone kém chất lượng. Cụ thể như sau:</span></p>\r\n\r\n<p>&nbsp;</p>', 15, 125, 35, 19, 1, '2018-07-03 03:46:42', '2018-07-10 19:42:34'),
-(128, 'Facebook Messenger vừa có thêm \"cô\" M trợ lý ảo chuyên môn nói leo lời người khác', 'hỗ trợ ảo mới he', '<p>Đêm ngày 20/5 tại lễ trao giải Billboard Music Award 2018, đã quy tụ dàn khách mời khủng như Taylor Swift, Luis Fonsi, Khalid,... nhưng đặc sắc hơn cả là màn trình diễn của các ngôi sao quốc tế</p>\r\n\r\n<p><img alt=\"\" src=\"https://kenh14cdn.com/2018/7/3/170406140907-facebook-m-messenger-780x439-1530587670018951418654.jpg\" style=\"height:439px; width:780px\" /></p>\r\n\r\n<p>Vài ngày trở lại đây, Facebook đã nhanh chóng cập nhật đến nhiều người dùng một chức năng mới khá thú vị trên&nbsp;<a class=\"seo-suggest-link\" href=\"http://kenh14.vn/messenger.html\" style=\"margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; text-decoration-line: none; box-sizing: border-box;\" target=\"_blank\" title=\"messenger\">Messenger</a>:&nbsp;<strong>Trợ lý ảo M (M Suggestion).</strong></p>\r\n\r\n<p>M là tên gọi nền tảng trí tuệ nhân tạo của Facebook, có chức năng tự động hỗ trợ người dùng trên Messenger. Hiện tại, vai trò chính và chủ yếu của M là gợi ý các hành động tương tác nhanh liên quan đến những nội dung vừa được nhắc đến hoặc có liên quan, hiểu nôm na có thể là cách nói leo, nói bồi thêm lời của người khác vậy.</p>\r\n\r\n<p>Lần đầu cập nhật và xuất hiện trợ lý ảo&nbsp;M, Messenger sẽ tự thông báo, giới thiệu cho người dùng biết về sự hiện diện và cách hoạt động của M luôn.</p>', 15, 124, 35, 22, 1, '2018-07-03 03:47:32', '2018-07-10 19:41:53');
+(128, 'Facebook Messenger vừa có thêm \"cô\" M trợ lý ảo chuyên môn nói leo lời người khác', 'hỗ trợ ảo mới he', '<p>Đêm ngày 20/5 tại lễ trao giải Billboard Music Award 2018, đã quy tụ dàn khách mời khủng như Taylor Swift, Luis Fonsi, Khalid,... nhưng đặc sắc hơn cả là màn trình diễn của các ngôi sao quốc tế</p>\r\n\r\n<p><img alt=\"\" src=\"https://kenh14cdn.com/2018/7/3/170406140907-facebook-m-messenger-780x439-1530587670018951418654.jpg\" style=\"height:439px; width:780px\" /></p>\r\n\r\n<p>Vài ngày trở lại đây, Facebook đã nhanh chóng cập nhật đến nhiều người dùng một chức năng mới khá thú vị trên&nbsp;<a class=\"seo-suggest-link\" href=\"http://kenh14.vn/messenger.html\" style=\"margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; text-decoration-line: none; box-sizing: border-box;\" target=\"_blank\" title=\"messenger\">Messenger</a>:&nbsp;<strong>Trợ lý ảo M (M Suggestion).</strong></p>\r\n\r\n<p>M là tên gọi nền tảng trí tuệ nhân tạo của Facebook, có chức năng tự động hỗ trợ người dùng trên Messenger. Hiện tại, vai trò chính và chủ yếu của M là gợi ý các hành động tương tác nhanh liên quan đến những nội dung vừa được nhắc đến hoặc có liên quan, hiểu nôm na có thể là cách nói leo, nói bồi thêm lời của người khác vậy.</p>\r\n\r\n<p>Lần đầu cập nhật và xuất hiện trợ lý ảo&nbsp;M, Messenger sẽ tự thông báo, giới thiệu cho người dùng biết về sự hiện diện và cách hoạt động của M luôn.</p>', 15, 124, 35, 23, 1, '2018-07-03 03:47:32', '2018-07-14 01:09:08'),
+(129, 'Khổ như con gái da đen: Đi buổi tối sợ hòa vào màn đêm, đồ chống nắng hoàn toàn vô tác dụng', 'ánvnnsnavsnavsnvsa', '<p><span style=\"color:rgb(34, 34, 34); font-family:times new roman,georgia,serif; font-size:17px\">ạn có công nhận hay không một sự thật rằng có đôi khi cứ nghe ai đó nhắc đến câu khẩu hiệu \"Là con gái thật tuyệt\" là bạn lại muốn lao đến đánh cho người ta một trận. Bởi thân là con gái, bạn quá hiểu những nỗi khổ, những phiền muộn con gái phải chịu đựng. Chẳng hạn như việc khó lòng kiểm soát được cân nặng, chẳng hạn như phận là con gái nhưng lông tay lông chân mọc còn rậm hơn cả con trai... Và có đôi khi cả bầu trời âu sầu của con gái đơn giản chỉ thu bé lại bằng câu chuyện không may sở hữu làn da thuộc phạm trù trái ngược hoàn toàn với da Ngọc Trinh... Buồn thực sự đấy!</span></p>', 15, 122, 35, 3, 1, '2018-07-14 01:48:30', '2018-07-14 01:49:18');
 
 -- --------------------------------------------------------
 
@@ -389,7 +390,8 @@ INSERT INTO `post_rate` (`id`, `post_id`, `rate`, `created_at`, `updated_at`) VA
 (10, 126, 3, '2018-07-09 14:32:34', '2018-07-09 14:32:34'),
 (11, 126, 5, '2018-07-09 14:32:36', '2018-07-09 14:32:36'),
 (12, 126, 1, '2018-07-09 14:32:39', '2018-07-09 14:32:39'),
-(13, 126, 1, '2018-07-09 14:32:41', '2018-07-09 14:32:41');
+(13, 129, 5, '2018-07-14 01:49:11', '2018-07-14 01:49:11'),
+(14, 129, 4, '2018-07-14 01:49:18', '2018-07-14 01:49:18');
 
 -- --------------------------------------------------------
 
@@ -499,7 +501,10 @@ INSERT INTO `post_tag` (`id`, `post_id`, `tag_id`, `created_at`, `updated_at`) V
 (90, 39, 73, '2018-07-10 18:06:39', '2018-07-10 18:06:39'),
 (91, 38, 71, '2018-07-10 18:06:46', '2018-07-10 18:06:46'),
 (92, 35, 71, '2018-07-10 18:06:56', '2018-07-10 18:06:56'),
-(93, 28, 71, '2018-07-10 18:07:01', '2018-07-10 18:07:01');
+(93, 28, 71, '2018-07-10 18:07:01', '2018-07-10 18:07:01'),
+(94, 129, 87, '2018-07-14 01:48:30', '2018-07-14 01:48:30'),
+(95, 129, 88, '2018-07-14 01:48:30', '2018-07-14 01:48:30'),
+(96, 129, 89, '2018-07-14 01:48:30', '2018-07-14 01:48:30');
 
 -- --------------------------------------------------------
 
@@ -542,7 +547,8 @@ INSERT INTO `tag` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (85, 'Thể thao quốc tế', '2018-06-29 15:11:18', '2018-06-29 15:11:18'),
 (86, 'Công nghệ', '2018-06-29 15:11:24', '2018-06-29 15:11:24'),
 (87, 'Ứng dụng', '2018-06-29 15:11:30', '2018-07-03 03:39:44'),
-(88, 'Điện thoại', '2018-07-10 17:35:37', '2018-07-10 17:35:37');
+(88, 'Điện thoại', '2018-07-10 17:35:37', '2018-07-10 17:35:37'),
+(89, 'Mưa to', '2018-07-13 13:31:41', '2018-07-13 13:31:49');
 
 -- --------------------------------------------------------
 
@@ -577,7 +583,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `gender`, `birthday`, `p
 (25, 'Nguyễn Tấn Dũng', 'nguyentandung@24h.com', '$2y$10$zmSjprbZZSvjPtoqMEic0uBHiMFz5c9MUvPY3OZmy83.wRBWj8ft2', 1, '0001-01-04', '0169696996', 0, '2018-06-15 17:48:11', '2018-06-15 17:48:11', 'A5Q9zMyLKave5ekGcAN2LJ7ptJSdpXY7RhT2wI3LpA9sawPFSKXS5oPGjSZY'),
 (26, 'Hoàng Anh', 'hoanganhlee@gmail.com', '$2y$10$Mt6r2w5zlgfej1/lql92puvPe5ywCuc/.eMOgfpLbqr32LTwS1rda', 1, '1997-03-26', '0123456654', 1, '2018-06-16 04:15:02', '2018-07-03 02:05:47', 'OLtVdYJUiHgcQr6gfC2oxZaiaIAeYHJeYh3LurhsYRe6w6Z5AcyYdvHc49gg'),
 (27, 'Lê Văn Giang', 'levangiang@gmail.com', '$2y$10$1rLYtSivhI7H0Db/S.NIjuPYb4zNurtVMKteubaB2UY8wdf//VpSe', 1, '1994-03-25', '1234565778', 0, '2018-06-17 08:55:25', '2018-06-17 08:55:25', '7PAtX7dZmqpLNnnfr9GaTH5PLMia2J0BrC5e3MckOsNzAIEKDIDTZ0mPPJBp'),
-(28, 'trần anh tú', 'tutrananh@gmail.com', '$2y$10$3Qh7t1nTggSfrr88TK2zze0q3jAuYeKLx4lCXFQMRdNO7sS99iTPS', 1, '1996-01-04', '1234567850', 0, '2018-06-29 14:12:52', '2018-06-29 15:27:49', NULL),
+(28, 'trần anh tú', 'tutrananh@gmail.com', '$2y$10$3Qh7t1nTggSfrr88TK2zze0q3jAuYeKLx4lCXFQMRdNO7sS99iTPS', 1, '1996-01-04', '1234567850', 1, '2018-06-29 14:12:52', '2018-07-13 14:32:23', NULL),
 (29, 'Oliver Giroud', 'OliverGiroud@yahoo.com.vn', '$2y$10$3/pXn4G.Xjy8OL5lJ/mPq.1AyCeAXy.U14Vh/9Zvgtx/buZtivyw.', 1, '1992-11-04', '1122335522', 0, '2018-07-10 20:00:57', '2018-07-10 20:00:57', NULL);
 
 --
@@ -663,7 +669,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID danh mục', AUTO_INCREMENT=36;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID danh mục', AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT cho bảng `comments`
@@ -693,25 +699,25 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT cho bảng `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID bài viết', AUTO_INCREMENT=129;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID bài viết', AUTO_INCREMENT=130;
 
 --
 -- AUTO_INCREMENT cho bảng `post_rate`
 --
 ALTER TABLE `post_rate`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT cho bảng `post_tag`
 --
 ALTER TABLE `post_tag`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID bản ghi', AUTO_INCREMENT=94;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID bản ghi', AUTO_INCREMENT=97;
 
 --
 -- AUTO_INCREMENT cho bảng `tag`
 --
 ALTER TABLE `tag`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID thẻ tag', AUTO_INCREMENT=89;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID thẻ tag', AUTO_INCREMENT=90;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
