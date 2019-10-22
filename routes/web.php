@@ -150,4 +150,8 @@ Route::group(['middleware' => 'localization'],function(){
     Route::get('admin/dangnhap','usersController@getDangnhapAdmin')->name('login');
     Route::get('/localization/{lang}', 'LanguageLocallizationController@index')->name('localization');
     Route::get('rate/{id}/{number}', 'singleController@rate')->name('rate');
+
+
+    //test
+
 });
