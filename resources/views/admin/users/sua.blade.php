@@ -12,7 +12,7 @@
                         </h1>
                     </div>
                     <!-- /.col-lg-12 -->
-                    <div class="col-lg-7" style="padding-bottom:120px"> 
+                    <div class="col-lg-7" style="padding-bottom:120px">
 
                         {{-- Thông báo lỗi --}}
                         @if(count($errors) > 0)
@@ -76,5 +76,5 @@
             <!-- /.container-fluid -->
         </div>
         <!-- /#page-wrapper -->
-
+<!-- amsndmasndmasndmansdmnadmasndasnd -->
 @endsection

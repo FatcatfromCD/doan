@@ -51,14 +51,14 @@
                             <fieldset>
                                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                                 <div class="form-group">
-                                    
+
                                     <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="Password" name="password" type="password" value="">
                                 </div>
                                 <button type="submit" class="btn btn-lg btn-success btn-block">Đăng nhập</button>
-                                
+
                             </fieldset>
                         </form>
                     </div>
